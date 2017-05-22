@@ -1,0 +1,32 @@
+*, *:before, *:after {
+box-sizing: border-box;
+position: relative;	
+}
+
+html,body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0;
+	padding:0;
+}
+body{
+	background:#000;
+	height: 100vh;
+}
+.ft-perfil{
+	width: 100%;
+	border-radius:50%;
+}
+section{
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center; 
+}
+h1{
+	color: lime
+}
+div img{
+	width: 100px;
+}
