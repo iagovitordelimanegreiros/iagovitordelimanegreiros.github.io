@@ -11,12 +11,18 @@ html,body{
 	padding:0;
 }
 body{
-	background:#000;
+	background:lime;
 	height: 100vh;
 }
+@keyframes move{
+	from{left: -200px;}
+	to {left:200px;}
+}
+
 .ft-perfil{
-	width: 100%;
+	width: 50%;
 	border-radius:50%;
+	animation: move 5s linear 2s infinite alternate;
 }
 section{
 	display:flex;
@@ -25,8 +31,10 @@ section{
 	justify-content: center; 
 }
 h1{
-	color: lime
+	color:black;
+	font-size: 50px
 }
 div img{
 	width: 100px;
+    height: 100px;
 }
